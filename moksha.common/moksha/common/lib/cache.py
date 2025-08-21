@@ -16,7 +16,7 @@
 import logging
 log = logging.getLogger(__name__)
 
-from moksha.exc import CacheBackendException
+from moksha.common.exc import CacheBackendException
 
 class Cache(object):
     """ A memcached-specific caching interface """
